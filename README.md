@@ -23,11 +23,15 @@ Demo data is provided via a seeder (`DemoDataSeeder`) with sample users and orde
 
 You can test the API using **Swagger**, **Postman**, or **Insomnia**:
    
-   - **Swagger**  
-php artisan l5-swagger:generate
-http://127.0.0.1:8000/api/documentation#/
+- **Swagger**  
+```bash
+   - php artisan l5-swagger:generate
 
-All possible responses (success, error, etc.) are documented there.
+```
+   - Open in browser:  `http://127.0.0.1:8000/api/documentation#/`
 
-   - **Postman / Insomnia**
- POST http://localhost:8000/api/orders/{order}/pay
+   All possible responses (success, error, etc.) are documented there.
+
+- **Postman / Insomnia**
+
+    `POST http://localhost:8000/api/orders/{order}/pay`
